@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>RaMe</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="<?php echo base_url('assets/ramedashboard/vendor/bootstrap/css/bootstrap.css') ?>" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="<?php echo base_url('assets/ramedashboard/vendor/font-awesome/css/font-awesome.css') ?>" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+
+    <!-- Plugin CSS -->
+    <link href="<?php echo base_url('assets/ramedashboard/vendor/magnific-popup/magnific-popup.css') ?>" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="<?php echo base_url('assets/ramedashboard/css/creative.css') ?>" rel="stylesheet">
+    <style>
+div.gallery {
+    border: 3px solid #3E9EEE;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 95%;
+    border-radius: 7px;
+}
+
+div.gallery:hover {
+    border: 5px solid #3E9EEE;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+div.gallery img {
+    width: 100%;
+    height: 250px;
+}
+
+div.desc {
+    padding: 10px;
+    text-align: center;
+    background-color: #3E9EEE;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 25px;
+    float: left;
+    width: 24.99999%;
+
+}
+
+@media only screen and (max-width: 700px){
+    .responsive {
+        width: 49.99999%;
+        margin: 10px 0;
+    }
+}
+
+@media only screen and (max-width: 00px){
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+    border-radius: 5px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+
+</style>
+  </head>
+
+  <body id="page-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav" >
+      <div class="container" >
+        <a class="navbar-brand js-scroll-trigger" href="<?php echo site_url('auth/login') ?>"> <img src=" <?php echo base_url('assets/ramedashboard/img/rame.png') ?> " width="30">&nbsp;RaMe</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation" >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive" >
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="<?php echo site_url('donasi') ?>">Donasi</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="<?php echo site_url('yayasan') ?>">Yayasan</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a href="<?php echo site_url('auth/logout') ?>" class="nav-link js-scroll-trigger">Sign out</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <br><br><br>
+    <center>
+      <h3><b>Silahkan Pilih Yayasan</b></h3><br>
+      <!-- <div class="row" >
+        <div class="col-md-9" >
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="thumbnail" style="background-color:white">
+                        <img width="300" src="<?php echo base_url('assets/ramedashboard/img/yayasan1.png') ?>">
+                        </div>
+                    </div>
+                </div>   
+            </div>
+        </div> -->
+
+   <!--  <section class="p-0" id="portfolio"> -->
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a href="<?php echo site_url('yayasan1') ?>">
+      <img src="<?php echo base_url('assets/ramedashboard/img/yayasan4.png') ?>"  width="600" height="400">
+    </a>
+    <div class="desc">Yayasan Sayap Ibu</div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img_forest.jpg">
+      <img src="<?php echo base_url('assets/ramedashboard/img/yayasan5.jpg') ?>"  width="600" height="400">
+    </a>
+    <div class="desc">Yayasan Difabel Mandiri </div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img_lights.jpg">
+      <img src="<?php echo base_url('assets/ramedashboard/img/yayasan6.jpg') ?>"  width="600" height="400">
+    </a>
+    <div class="desc">Yayasan Pembinaan Anak Cacat</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img_mountains.jpg">
+      <img src="<?php echo base_url('assets/ramedashboard/img/yayasan7.jpg') ?>"  width="600" height="400">
+    </a>
+    <div class="desc">Yayasan Sinar Pelangi </div>
+  </div>
+</div>
+<div class="clearfix"></div>
+        
+<div class="responsive">
+  <div class="gallery">
+    <a href="img/portfolio/fullsize/4.jpg">
+      <img src="<?php echo base_url('assets/ramedashboard/img/yayasan9.png') ?>"  width="600" height="400">
+    </a>
+    <div class="desc">Yayasan Bhakti Luhur</div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img_forest.jpg">
+      <img src="<?php echo base_url('assets/ramedashboard/img/yayasan1.png') ?>"  width="600" height="400">
+    </a>
+    <div class="desc">Yayasan Permata Atjeh Peduli </div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img_lights.jpg">
+      <img src="<?php echo base_url('assets/ramedashboard/img/yayasan6.jpg') ?>"  width="600" height="400">
+    </a>
+    <div class="desc">Yayasan Pembinaan Anak Cacat</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img_mountains.jpg">
+      <img src="<?php echo base_url('assets/ramedashboard/img/yayasan7.jpg') ?>"  width="600" height="400">
+    </a>
+    <div class="desc">Yayasan Sinar Pelangi </div>
+  </div>
+</div>
+
+<div class="clearfix"></div>
+    
+   
+
+    
+
+
+
+
+
+     
+  </center>
+<!--     <section class="bg-dark text-white">
+      <div class="container text-center">
+        <h2 class="mb-4">Free Download at Start Bootstrap!</h2>
+        <a class="btn btn-light btn-xl sr-button" href="http://startbootstrap.com/template-overviews/creative/">Download Now!</a>
+      </div>
+    </section> -->
+
+    
+    <!-- Bootstrap core JavaScript -->
+    <script src="<?php echo base_url('assets/ramedashboard/vendor/jquery/jquery.min.js') ?>"></script>
+    <script src="<?php echo base_url('assets/ramedashboard/vendor/bootstrap/js/bootstrap.bundle.min.js') ?>"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="<?php echo base_url('assets/ramedashboard/vendor/jquery-easing/jquery.easing.min.js') ?>"></script>
+    <script src="<?php echo base_url('assets/ramedashboard/vendor/scrollreveal/scrollreveal.min.js') ?>"></script>
+    <script src="<?php echo base_url('assets/ramedashboard/vendor/magnific-popup/jquery.magnific-popup.min.js') ?>"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="<?php echo base_url('assets/ramedashboard/js/creative.min.js') ?>"></script>
+
+  </body>
+
+</html>
